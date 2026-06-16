@@ -12,6 +12,7 @@ const customPlaceholderHtml = fs.readFileSync(
 )
 
 export default defineConfig({
+  builder: 'rollup',
   server: {
     host: '0.0.0.0',
   },
